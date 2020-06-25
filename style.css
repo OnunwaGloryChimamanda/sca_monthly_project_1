@@ -1,0 +1,75 @@
+body{
+    background: rgb(187, 236, 7);
+}
+.container{
+    position: absolute;
+    height: 100pt;
+    width: 100pt;
+    border: 5px solid rgb(72, 173, 255);
+    border-radius: 50%;
+    margin: auto;
+    box-shadow: 0 0 40px black;
+    background: #fff;
+    top: 0;right: 0;left: 0;bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.reflection {
+    position: absolute;
+    height: 150pt;
+    width: 200pt;
+    opacity: 0.6;
+    background: rgb(201, 200, 200);
+    top: 35%;
+    left: 35%;
+    transform: rotate(45deg);
+}
+
+.hours{
+    position: absolute;
+    height: 35pt;
+    width: 2px;
+    background: #000;
+    transform: rotate(90deg);
+    transform-origin: bottom;
+    top: 20%;
+}
+
+.mins{
+    position: absolute;
+    height: 45pt;
+    width: 2px;
+    background: #000;
+    transform-origin: bottom;
+    top: 10.3%;
+}
+
+.secs{
+    position: absolute;
+    height: 55pt;
+    width: 2px;
+    background: rgb(72, 173, 255);
+    top: 1%;
+    transform-origin: bottom;
+    transform: rotate(-45deg);
+}
+
+.cover{
+    position: absolute;
+    height: 8pt;
+    width: 8pt;
+    background: rgb(72, 173, 255);
+    border-radius: 50%;
+    top: 50%;
+}
+
+
+
+
+
+
+
+
